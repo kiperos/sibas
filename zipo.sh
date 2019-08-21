@@ -33,6 +33,7 @@ install_dep(){
    yum install sudo
    sudo yum -y install epel-release
    sudo yum -y update
+   sudo yum -y clean all
    sudo yum -y install p7zip p7zip-plugins
    sudo yum -y install pwgen
    say_done
